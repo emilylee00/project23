@@ -1,18 +1,24 @@
 body {
-    background-color: rgba(247, 245, 243, 0.897);
+    background-color: rgba(249, 219, 255, 0.897);
 }
 
-/* #title {
-    color: rgb(80, 44, 114);
-    text-align: center;
-    background-color: rgb(250, 215, 215);
+/* #library{
+    margin: 300px;
+    margin-left: 100px;
 }
-#text {
-    width: 500px;
+#library input {
+    padding: 5px;
 }
 
+.input_img {
+    background-image: url(public/valid.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
 
-.card_red {
+
+} */
+
+/* .card_red {
     color: rgb(150, 35, 35);
     background-color: lightgrey;
     display: inline-block;
@@ -20,48 +26,113 @@ body {
     padding: 10px;
     margin: 2px;
     font-size: 25px;
+} */
+
+
+#nav_menu {
+    list-style-type: none;
+    color: aliceblue;
+    display: flex; 
+    cursor: pointer; 
 }
 
-.card_black {
-    color: black;
-    background-color: lightgrey;
-    width: px;
-    display: inline-block;
-    font-size: 25px;
+#nav_menu li{
+    background-color: rgb(164, 148, 255); 
+    padding: 10px 30px;
+    border:  1px solid rgba(15, 101, 213, 0.955);
+}
+
+#nav_menu li:hover{
+    background-color:rgb(164, 148, 255); ; 
+}
+
+#categories{
+  list-style-type: none;
+  position: absolute; 
+  width: 110px;
+  margin-left: -71px;
+  margin-top: 10px;
+  display: none;  
+}
+
+#nav_menu :hover #categories {
+  display: block;
+  width: 130px;
+}
+
+
+#woman{
+  list-style-type: none;
+  position: absolute;
+  width: 110px;
+  margin-left: 58px;
+  margin-top: -30px;
+  display: none; 
+}
+
+#woman li{
+  width: 60px;
+}
+
+#categories li:hover #woman{
+    display: block;
+}
+
+
+
+
+#subscribe_plan { 
+    text-align: center; 
     padding: 10px;
-    margin: 2px;
-}
+    border-collapse: collapse;
+  }
+  
+  #subscribe_plan td, #subscribe_plan th {
+    padding: 10px 20px;
+  }
+  
+  #subscribe_plan span{
+  
+    
+    display: inline-block; 
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  #subscribe_plan tr:first-child {
+    color: aliceblue;
+  }
+  
+  #subscribe_plan tr:nth-child(even) {
+    background-color: rgb(179, 176, 176);
+  }
+  #subscribe_plan tr:nth-child(odd) {
+    background-color: rgb(227, 223, 223);
+  }
+  
+  #subscribe_plan td:nth-child(2n) {
+    background-color: rgba(214, 211, 211, 0.5);
+  }
+  
+  #plan_0 {
+    background-color: rgb(81, 81, 242);
+    
+    border-top-left-radius: 15px;
+  }
+  #plan_1 {
+    background-color: rgb(64, 64, 248);
+  }
+  #plan_2 {
+    background-color: rgb(37, 37, 180);
+  }
+  #plan_3 {
+    background-color: rgb(27, 27, 103);
+  }
+  #plan_4 {
+    background-color: rgb(22, 22, 100);
+    border-top-right-radius: 15px;
+  }
 
-#LoremIpsum {
-    text-align: center;
-    font-style: monospace;
-   
-}
 
-.ax {
-    text-align: center;
-    font-size: 15px;
-    background-color: rgb(241, 141, 141);
-    width: 150px;
-    margin: auto;
-    font-weight: 600;
-    word-wrap: break-word;
-}
-
-
-
-
-
-
-
-
- .v {
-    font-size: 13;
- }
-
- .title {
-    text-align: center;
- } */
 
  #container {
     border: 2px solid orange;
